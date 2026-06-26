@@ -17,7 +17,7 @@ This project performs sentiment analysis on customer reviews using Natural Langu
 - Python
 - Pandas
 - TextBlob
-- NLTK
+- matplotlib
 
 ## Installation
 
