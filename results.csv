@@ -1,0 +1,6 @@
+Review,Rating,Polarity,Sentiment
+This phone is amazing.,5,0.6000000000000001,Positive
+Battery backup is poor.,2,-0.4,Negative
+Delivery was okay.,3,0.5,Positive
+Excellent service.,5,1.0,Positive
+Very disappointed.,1,-0.9750000000000001,Negative
