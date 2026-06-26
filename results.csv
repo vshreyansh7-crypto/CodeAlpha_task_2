@@ -1,0 +1,8 @@
+Review,Polarity,Sentiment
+This phone is amazing and worth the price.,0.45000000000000007,Positive
+The product quality is terrible.,-1.0,Negative
+Delivery was okay.,0.5,Positive
+Excellent customer service.,1.0,Positive
+I am disappointed with the battery life.,-0.75,Negative
+I am very happy with this purchase.,1.0,Positive
+The product made me angry.,-0.5,Negative
