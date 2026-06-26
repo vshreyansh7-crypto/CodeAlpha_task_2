@@ -91,3 +91,20 @@ print("\nFiles Generated Successfully:")
 print("1. results.csv")
 print("2. sentiment_bar_chart.png")
 print("3. sentiment_pie_chart.png")
+
+review = input("Enter your review: ")
+def analyze_review(review):
+    polarity = TextBlob(review).sentiment.polarity
+
+    if polarity > 0:
+        sentiment = "Positive"
+    elif polarity < 0:
+        sentiment = "Negative"
+    else:
+        sentiment = "Neutral"
+
+    print("\nReview:", review)
+    print("Sentiment:", sentiment)
+    print("Polarity Score:", round(polarity,2))
+analyze_review(review)
+df["Sentiment"] = df["Review"].apply(get_sentiment)
